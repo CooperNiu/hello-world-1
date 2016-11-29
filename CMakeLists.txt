@@ -3,5 +3,5 @@ project(HuffmanTree)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp HuffmanTree.cpp HuffmanTree.h)
 add_executable(HuffmanTree ${SOURCE_FILES})

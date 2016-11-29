@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HuffmanTree.dir/main.cpp.obj"
+  "CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj"
   "HuffmanTree.pdb"
   "HuffmanTree.exe"
   "HuffmanTree.exe.manifest"

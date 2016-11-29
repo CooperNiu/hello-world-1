@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Cooper/ClionProjects/DataStructure/HuffmanTree.cpp" "C:/Users/Cooper/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj"
   "C:/Users/Cooper/ClionProjects/DataStructure/main.cpp" "C:/Users/Cooper/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/HuffmanTree.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

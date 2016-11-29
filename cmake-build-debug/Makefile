@@ -122,6 +122,33 @@ HuffmanTree/fast:
 	$(MAKE) -f CMakeFiles\HuffmanTree.dir\build.make CMakeFiles/HuffmanTree.dir/build
 .PHONY : HuffmanTree/fast
 
+HuffmanTree.obj: HuffmanTree.cpp.obj
+
+.PHONY : HuffmanTree.obj
+
+# target to build an object file
+HuffmanTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\HuffmanTree.dir\build.make CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.obj
+.PHONY : HuffmanTree.cpp.obj
+
+HuffmanTree.i: HuffmanTree.cpp.i
+
+.PHONY : HuffmanTree.i
+
+# target to preprocess a source file
+HuffmanTree.cpp.i:
+	$(MAKE) -f CMakeFiles\HuffmanTree.dir\build.make CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.i
+.PHONY : HuffmanTree.cpp.i
+
+HuffmanTree.s: HuffmanTree.cpp.s
+
+.PHONY : HuffmanTree.s
+
+# target to generate assembly for a file
+HuffmanTree.cpp.s:
+	$(MAKE) -f CMakeFiles\HuffmanTree.dir\build.make CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.s
+.PHONY : HuffmanTree.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... HuffmanTree
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... HuffmanTree.obj
+	@echo ... HuffmanTree.i
+	@echo ... HuffmanTree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
